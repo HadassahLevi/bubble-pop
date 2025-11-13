@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Bubble Wrap Popper</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>🫧 Bubble Wrap Popper</h1>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-label">Pops:</span>
+                    <span id="popCount" class="stat-value">0</span>
+                </div>
+                <div class="stat-item timer-stat" id="timerDisplay" style="display: none;">
+                    <span class="stat-label">Time:</span>
+                    <span id="timerValue" class="stat-value">30</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Controls -->
+        <div class="controls">
+            <div class="mode-selector">
+                <button class="mode-btn active" data-mode="classic">Classic</button>
+                <button class="mode-btn" data-mode="zen">Zen</button>
+                <button class="mode-btn" data-mode="speed">Speed Challenge</button>
+            </div>
+            <div class="settings">
+                <button id="themeBtn" class="icon-btn" title="Change Theme">🎨</button>
+                <button id="soundBtn" class="icon-btn" title="Toggle Sound">🔊</button>
+                <button id="resetBtn" class="icon-btn" title="Reset Progress">🔄</button>
+            </div>
+        </div>
+
+        <!-- Milestone Alert -->
+        <div id="milestoneAlert" class="milestone-alert">
+            <div class="milestone-content">
+                <span id="milestoneText"></span>
+            </div>
+        </div>
+
+        <!-- Bubble Grid -->
+        <div id="bubbleGrid" class="bubble-grid"></div>
+
+        <!-- Theme Selector Modal -->
+        <div id="themeModal" class="modal">
+            <div class="modal-content">
+                <h2>Select Theme</h2>
+                <div id="themeList" class="theme-list"></div>
+                <button class="close-modal">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
