@@ -2,7 +2,7 @@
 
 A satisfying and therapeutic browser-based bubble wrap popping game with special bubbles, sound effects, and multiple game modes. Experience the joy of popping bubble wrap without the waste!
 
-![Game Screenshot](./screenshots/main-game.png)
+![Game Screenshot](screenshots/main-game.png)
 
 ## 🎯 Project Overview
 
@@ -52,7 +52,7 @@ Bubble Pop is an engaging web-based simulation that recreates the satisfying exp
 5. **Customize**: Use the theme selector to change colors and the sound toggle for audio preferences
 6. **Track Progress**: Monitor your total pops and see how many bubbles you've popped overall
 
-![Gameplay Screenshot](./screenshots/gameplay.png)
+![Gameplay Screenshot](screenshots/gameplay.png)
 
 ## 🚀 Installation / Running Instructions
 
@@ -88,7 +88,7 @@ Then visit `http://localhost:8000`
 
 | Main Game Interface | Theme Selection | Speed Challenge Mode |
 |:-------------------:|:---------------:|:--------------------:|
-| ![Main Interface](./screenshots/main-interface.png) | ![Theme Selection](./screenshots/theme-selection.png) | ![Speed Mode](./screenshots/speed-mode.png) |
+| ![Main Interface](screenshots/main-interface.png) | ![Theme Selection](screenshots/theme-selection.png) | ![Speed Mode](screenshots/speed-mode.png) |
 
 ## 🛠️ Technologies Used
 
